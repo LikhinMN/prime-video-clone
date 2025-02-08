@@ -1,0 +1,117 @@
+@import url("https://fonts.cdnfonts.com/css/amazon-ember");
+body{
+  background-color:#0f1111;
+  font-family: "Amazon Ember", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+section{
+  width: 100vw;
+  height: 100vw;
+}
+nav{
+  color: white;
+  background-color: #00050d;
+  height: 66px;
+}
+.desktop-nav{
+  display: flex;
+  justify-content: space-between;
+  padding:2px 60px  0 60px;
+}
+.left-nav-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 24px;
+}
+.right-nav-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 24px;
+}
+.nav-logo{
+  height: 18px;
+}
+.icon{
+  height: 20px;
+  width: 20px;
+}
+.divider{
+  height: 24px;
+  width: 2px;
+  background-color: rgb(80, 70, 70);
+}
+.nav-links{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 12px;
+  background-color: #00050d;
+  border-radius: 8px;
+  transition: padding ,background-color, ease-in 100ms;
+}
+.subscription{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.subscription{
+  font-size: 16px;
+  padding: 10px 12px;
+  font-weight: 600;
+  background-color: #00050d;
+  border-radius: 8px;
+  transition: filter ease-in 100ms;
+}
+.subscription:hover{
+  filter: invert();
+}
+
+.nav-links:hover{
+  background-color: rgb(220, 220, 220);
+  color: black;
+  border-radius: 8px;
+}
+.profile-icon{
+  width: 34px;
+}
+.join-button{
+ 
+  background-color: rgb(1, 153, 255);
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 16px;
+  border-radius: 8px;
+  opacity: 0.9;
+}
+.join-button:hover{
+  background-color: rgb(0, 145, 255);
+  opacity: 1;
+}
+.search-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #00050d;
+  border-radius: 50px;
+}
+.search-icon:hover{
+filter: invert();
+}
+.profile-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  border-radius: 50px;
+}
+.profile-image:hover{
+  background-color:rgb(220, 220, 220);
+}
