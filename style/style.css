@@ -1,0 +1,41 @@
+@import url("https://fonts.cdnfonts.com/css/amazon-ember");
+body {
+  font-family: "Amazon Ember", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 5, 13);
+}
+#hero{
+  width: 100vw;
+  height: 75vw;
+}
+.bacground-img1{
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+  flex-shrink: 0;
+}
+.hero-conatainer{
+  display: flex;
+  justify-content: space-between;
+  height: 60vh;
+  margin:0 20px;
+}
+.details-conatiner{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.details-conatiner{
+  box-shadow: 10px 10px 10px black;
+  z-index: 100;
+}
+.title{
+  font-size: 42px;
+  font-weight: bold;
+}
+.discription{
+  font-size: 24px;
+}
