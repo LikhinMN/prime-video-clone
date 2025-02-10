@@ -1,41 +1,124 @@
 @import url("https://fonts.cdnfonts.com/css/amazon-ember");
+
 body {
   font-family: "Amazon Ember", sans-serif;
   margin: 0;
   padding: 0;
   background-color: rgb(0, 5, 13);
 }
-#hero{
+
+#hero {
   width: 100vw;
-  height: 75vw;
-}
-.bacground-img1{
-  margin: 0;
-  padding: 0;
-  z-index: -1;
-  flex-shrink: 0;
-}
-.hero-conatainer{
-  display: flex;
-  justify-content: space-between;
-  height: 60vh;
-  margin:0 20px;
-}
-.details-conatiner{
+  height: 80vh;
   color: white;
+}
+.bacground-img1 img{
+  position: absolute;
+  right: 5px;
+  z-index: -1;
+}
+.bacground-img2 img{
+  position: absolute;
+  right: 5px;
+  z-index: -1;
+}
+.details-conatiner {
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  height: 90vh;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 50px;
+  background-color: black;
+  box-shadow: 10px 10px 10px black;
+}
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.discription {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+ .btn{
+  background-color: white;
+  color: black;
+  padding: 16px 24px;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.details-conatiner .btn:hover {
+  background-color: #d1d1d1;
+}
+#subscription{
+  margin-top: 150px;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.image-grid-container{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+.img-grid{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.details-conatiner{
-  box-shadow: 10px 10px 10px black;
-  z-index: 100;
+.image-grid{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.title{
-  font-size: 42px;
-  font-weight: bold;
+.subscription-details{
+  width: 40%;
+  padding-top: 50px;
+  padding-left: 40px;
 }
-.discription{
-  font-size: 24px;
+.subscription-details p{
+  color: white;
+}
+footer{
+  height:10vw;
+  width: 100vw;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:#222222;
+}
+.footer-links{
+  list-style: none;
+  color: #79b8f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  transition: color ease-in 300ms;
+  cursor: pointer;
+}
+.footer-links li:hover{
+  color: #48a6ff;
+}
+.copyright{
+  color: #8197a4;
 }
