@@ -17,9 +17,12 @@ body {
   right: 5px;
   z-index: -1;
 }
+#hero2{
+  height: 100vh;
+}
 .bacground-img2 img{
   position: absolute;
-  right: 5px;
+  right: 0;
   z-index: -1;
 }
 .details-conatiner {
@@ -27,16 +30,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 50%;
+  width: 40%;
   height: 90vh;
   text-align: left;
-  padding-left: 40px;
+  padding-left: 70px;
   padding-top: 50px;
   background-color: black;
   box-shadow: 10px 10px 10px black;
+  color: white;
 }
 .title {
-  font-size: 3rem;
+  font-size: 300%;
   font-weight: bold;
   margin-bottom: 15px;
 }
@@ -61,41 +65,38 @@ body {
 .details-conatiner .btn:hover {
   background-color: #d1d1d1;
 }
-#subscription{
+#subscription {
   margin-top: 150px;
-  height: 60vh;
-  width: 100%;
   display: flex;
-  justify-content: space-around;
+  padding-left: 30px;
+  align-items: center;
 }
 .image-grid-container{
-  
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 20px;
-}
-.img-grid{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ width: 50%;
 }
 .image-grid{
-  width: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width:30% ;
+  border-radius: 10px;
 }
-.subscription-details{
-  width: 40%;
+.image-grid:hover {
+ box-shadow: 6px 6px 10px rgb(0, 145, 255);
+}
+.subscription-details {
+  width: 45%;
   padding-top: 50px;
   padding-left: 40px;
 }
-.subscription-details p{
+
+.subscription-details p {
   color: white;
 }
+
 footer{
-  height:10vw;
+  height:20vh;
   width: 100vw;
   margin-top: 80px;
   display: flex;
